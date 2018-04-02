@@ -1,5 +1,4 @@
-body,
-html {
+body, html {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -12,20 +11,11 @@ body {
   color: #424242;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  margin: 0;
+h1, h2, h3, h4, h5 {
+  margin: 0; 
 }
 
-header,
-nav,
-footer,
-section,
-article,
-div {
+header, nav, footer, section, article, div {
   box-sizing: border-box;
 }
 
@@ -35,6 +25,7 @@ ul {
   margin: 0;
 }
 
+
 /*
  *
  * Common
@@ -43,10 +34,11 @@ ul {
 
 .news__more {
   float: right;
-  font-size: 0.8em;
+  font-size: .8em;
   color: #333;
   text-decoration: none;
 }
+
 
 /*
  *
@@ -61,7 +53,7 @@ ul {
 }
 
 .header__inner {
-  width: 100%;
+  width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -81,6 +73,7 @@ ul {
   color: #212121;
 }
 
+
 /*
  *
  * Top Level Navigation
@@ -88,7 +81,7 @@ ul {
  */
 
 .nav {
-  width: 100%;
+  width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -112,13 +105,13 @@ ul {
 .nav a {
   text-decoration: none;
   color: #616161;
-  padding: 1.5em;
 }
 
 .nav a:hover {
   text-decoration: underline;
   color: #212121;
 }
+
 
 /*
  *
@@ -128,7 +121,7 @@ ul {
 
 main {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
-  width: 100%;
+  width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -139,6 +132,7 @@ main {
  *
  */
 
+
 /*
  *
  * Hero
@@ -147,9 +141,9 @@ main {
 
 .hero {
   float: left;
-  width: 100%;
+  width: 480px;
   position: relative;
-  background-image: url('./images/dog.jpg');
+  background-image: url("./images/dog.jpg");
   background-size: cover;
   height: 300px;
 }
@@ -166,6 +160,7 @@ main {
   padding: 1em;
 }
 
+
 /*
  *
  * Top News
@@ -174,27 +169,27 @@ main {
 
 .top-news {
   float: right;
-  width: 100%;
+  width: 320px;
   height: 300px;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid #E0E0E0;
   padding: 1em;
 }
 
 .news__title {
   font-weight: 300;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid #E0E0E0;
   line-height: 24px;
   font-size: 16px;
 }
 
 .top-news__item {
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid #E0E0E0;
   padding: 1em 0;
   line-height: 19.2px;
 }
 
 .top-news__item:before {
-  content: '» ';
+  content: "» ";
 }
 
 .top-news__item:last-child {
@@ -204,13 +199,13 @@ main {
 .top-news__item a {
   text-decoration: none;
   color: #666;
-  padding: 1.5em inherit;
 }
 
 .top-news__item a:hover,
 .top-news__item a:active {
   text-decoration: underline;
 }
+
 
 /*
  *
@@ -219,7 +214,7 @@ main {
  */
 
 .scores {
-  width: 100%;
+  width: 480px;
   float: left;
   padding-top: 1em;
 }
@@ -231,13 +226,13 @@ main {
 
 .scores__table th,
 .scores__table td {
-  padding: 1em;
+  padding: 1em; 
 }
 
 .scores__table th {
   color: #fff;
   font-weight: 300;
-  background-color: #78909c;
+  background-color: #78909C;
 }
 
 .scores__table tr:nth-child(odd) td {
@@ -269,7 +264,7 @@ main {
 
 .weather {
   float: right;
-  width: 100%;
+  width: 320px;
   padding: 1em;
 }
 
@@ -290,7 +285,7 @@ main {
 }
 
 .weather__today__image {
-  vertical-align: middle;
+  vertical-align: middle
 }
 
 .weather__today__temp {
@@ -315,6 +310,7 @@ main {
 .weather__next__image {
   width: 100%;
 }
+
 
 /*
  *
@@ -345,13 +341,13 @@ main {
 .snippet__title a {
   text-decoration: none;
   color: #666;
-  padding: 1.5em inherit;
 }
 
 .snippet__title a:hover,
 .snippet__title a:active {
   text-decoration: underline;
 }
+
 
 /*
  *
@@ -360,7 +356,7 @@ main {
  */
 
 footer {
-  border-top: 1px solid #e0e0e0;
+  border-top: 1px solid #E0E0E0;
   padding: 1em;
   width: 100%;
 }
@@ -373,5 +369,4 @@ footer li {
 footer a {
   text-decoration: none;
   color: #333;
-  padding: 1.5em;
 }
